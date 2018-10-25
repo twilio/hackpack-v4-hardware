@@ -1,0 +1,1948 @@
+EESchema Schematic File Version 4
+LIBS:HackPackv4-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "HackPack v4"
+Date "2018-10-24"
+Rev "3"
+Comp "Twilio Inc."
+Comment1 ""
+Comment2 ""
+Comment3 "RELEASE"
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR01
+U 1 1 5B479C07
+P 1800 4200
+F 0 "#PWR01" H 1800 3950 50  0001 C CNN
+F 1 "GND" H 1800 4050 50  0000 C CNN
+F 2 "" H 1800 4200 50  0001 C CNN
+F 3 "" H 1800 4200 50  0001 C CNN
+	1    1800 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 3800 1800 4100
+Wire Wire Line
+	1800 4100 1900 4100
+Connection ~ 1800 4100
+Wire Wire Line
+	2400 4100 2400 3800
+Connection ~ 2400 4100
+Wire Wire Line
+	2300 3800 2300 4100
+Connection ~ 2300 4100
+Wire Wire Line
+	2200 3800 2200 4100
+Connection ~ 2200 4100
+Wire Wire Line
+	2100 3800 2100 4100
+Connection ~ 2100 4100
+Wire Wire Line
+	2000 3800 2000 4100
+Connection ~ 2000 4100
+Wire Wire Line
+	1900 3800 1900 4100
+Connection ~ 1900 4100
+$Comp
+L power:GND #PWR02
+U 1 1 5B479D13
+P 8200 3000
+F 0 "#PWR02" H 8200 2750 50  0001 C CNN
+F 1 "GND" H 8200 2850 50  0000 C CNN
+F 2 "" H 8200 3000 50  0001 C CNN
+F 3 "" H 8200 3000 50  0001 C CNN
+	1    8200 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2700 8200 2900
+Wire Wire Line
+	8200 2900 8500 2900
+Wire Wire Line
+	8500 2900 8500 2700
+Connection ~ 8200 2900
+$Comp
+L power:+3.3V #PWR03
+U 1 1 5B479D79
+P 8200 1300
+F 0 "#PWR03" H 8200 1150 50  0001 C CNN
+F 1 "+3.3V" H 8200 1440 50  0000 C CNN
+F 2 "" H 8200 1300 50  0001 C CNN
+F 3 "" H 8200 1300 50  0001 C CNN
+	1    8200 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 1300 8200 1500
+Wire Wire Line
+	8200 1500 8500 1500
+Wire Wire Line
+	8500 1500 8500 1600
+Connection ~ 8200 1500
+$Comp
+L power:+3.3V #PWR04
+U 1 1 5B479DE3
+P 2300 900
+F 0 "#PWR04" H 2300 750 50  0001 C CNN
+F 1 "+3.3V" H 2300 1040 50  0000 C CNN
+F 2 "" H 2300 900 50  0001 C CNN
+F 3 "" H 2300 900 50  0001 C CNN
+	1    2300 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 900  2300 1050
+Wire Wire Line
+	2300 1050 2400 1050
+Wire Wire Line
+	2400 1050 2400 1200
+Connection ~ 2300 1050
+$Comp
+L power:+5V #PWR05
+U 1 1 5B479E4B
+P 2000 900
+F 0 "#PWR05" H 2000 750 50  0001 C CNN
+F 1 "+5V" H 2000 1040 50  0000 C CNN
+F 2 "" H 2000 900 50  0001 C CNN
+F 3 "" H 2000 900 50  0001 C CNN
+	1    2000 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 900  2000 1050
+Wire Wire Line
+	2000 1050 2100 1050
+Wire Wire Line
+	2100 1050 2100 1200
+Connection ~ 2000 1050
+$Comp
+L HackPackv4-rescue:PSP_1000_JSTK U8
+U 1 1 5B47A209
+P 10050 1750
+F 0 "U8" H 10450 2150 60  0000 C CNN
+F 1 "PSP_1000_JSTK" H 10750 1250 60  0000 C CNN
+F 2 "HackPack_Footprints:JOYSTICK-PSP1000" H 11350 1050 60  0001 C CNN
+F 3 "NONE" H 11350 1050 60  0001 C CNN
+F 4 "Analog Resistive Joystick, Can Sub from Other Supplier of PSP 1000 Replacement Joystick" H 10050 1750 50  0001 C CNN "Characteristics"
+F 5 "PSP 1000 Joystick from Alibaba" H 10050 1750 50  0001 C CNN "Description"
+F 6 "Y" H 10050 1750 50  0001 C CNN "Can_Substitute"
+F 7 "Needs 2 screws" H 10050 1750 50  0001 C CNN "Notes"
+F 8 "CUSTOM" H 10050 1750 50  0001 C CNN "Package"
+F 9 "PSP1000_Joystick" H 0   0   50  0001 C CNN "MFN"
+F 10 "" H 0   0   50  0001 C CNN "S1PL"
+F 11 "" H 0   0   50  0001 C CNN "S1PN"
+F 12 "CONSIGN" H 0   0   50  0001 C CNN "MFP"
+	1    10050 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 1800 9550 1800
+Wire Wire Line
+	9550 1700 9500 1700
+Wire Wire Line
+	9500 1700 9500 1900
+Wire Wire Line
+	9500 1900 9000 1900
+Wire Wire Line
+	10050 1100 10050 1050
+$Comp
+L power:+3.3V #PWR06
+U 1 1 5B47A33B
+P 10050 1050
+F 0 "#PWR06" H 10050 900 50  0001 C CNN
+F 1 "+3.3V" H 10050 1190 50  0000 C CNN
+F 2 "" H 10050 1050 50  0001 C CNN
+F 3 "" H 10050 1050 50  0001 C CNN
+	1    10050 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5B47A358
+P 10050 2700
+F 0 "#PWR07" H 10050 2450 50  0001 C CNN
+F 1 "GND" H 10050 2550 50  0000 C CNN
+F 2 "" H 10050 2700 50  0001 C CNN
+F 3 "" H 10050 2700 50  0001 C CNN
+	1    10050 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 2500 10050 2700
+$Comp
+L Device:R R5
+U 1 1 5B47B2F0
+P 2950 4450
+F 0 "R5" V 3030 4450 50  0000 C CNN
+F 1 "330" V 2950 4450 50  0000 C CNN
+F 2 "HackPack_Footprints:R_0805" V 2880 4450 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 2950 4450 50  0001 C CNN
+F 4 "Yageo" H 2950 4450 60  0001 C CNN "MFN"
+F 5 "" H 2950 4450 60  0001 C CNN "S1PN"
+F 6 "" H 2950 4450 60  0001 C CNN "S1PL"
+F 7 "0805 5% or 1% 330R 1/8W" H 2950 4450 60  0001 C CNN "Characteristics"
+F 8 "SMD RES 330R-1%-1/8W;0805" H 2950 4450 60  0001 C CNN "Description"
+F 9 "Y" H 2950 4450 60  0001 C CNN "Can_Substitute"
+F 10 "Protection on button/pulldown" H 2950 4450 60  0001 C CNN "Notes"
+F 11 "RC0805FR-07330RL" H 2950 4450 60  0001 C CNN "MFP"
+	1    2950 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3100 4450 3250 4450
+Wire Wire Line
+	3100 1700 3450 1700
+Text Label 4100 1700 2    60   ~ 0
+PWR_ON_OFF
+$Comp
+L HackPackv4-rescue:SW_Push SW5
+U 1 1 5B47B4A0
+P 3450 4450
+F 0 "SW5" H 3500 4550 50  0000 L CNN
+F 1 "PWR_B" H 3450 4390 50  0000 C CNN
+F 2 "HackPack_Footprints:ALPS_SKRPABE010" H 3450 4650 50  0001 C CNN
+F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/218/TL3365.pdf" H 3450 4650 50  0001 C CNN
+F 4 "E-Switch" H 3450 4450 50  0001 C CNN "MFN"
+F 5 "" H 3450 4450 50  0001 C CNN "MPN"
+F 6 "" H 3450 4450 50  0001 C CNN "S1PN"
+F 7 "" H 3450 4450 50  0001 C CNN "S1PL"
+F 8 "SMD 4.2mmx3mm 4 contact SPST Push" H 3450 4450 50  0001 C CNN "Characteristics"
+F 9 "SWITCH TACTILE SPST-NO 0.05A 12V" H 3450 4450 50  0001 C CNN "Description"
+F 10 "N" H 3450 4450 60  0001 C CNN "Can_Substitute"
+F 11 "Power button" H 3450 4450 50  0001 C CNN "Notes"
+F 12 "TL3365AF180QG" H 0   0   50  0001 C CNN "MFP"
+	1    3450 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4450 4250 4450
+Text Label 4250 4450 2    60   ~ 0
+PWR_ON_OFF
+Wire Wire Line
+	1300 2300 650  2300
+Text Label 650  2300 0    60   ~ 0
+SPI1_SCK
+Text Label 7150 2000 0    60   ~ 0
+SPI1_SCK
+Wire Wire Line
+	7800 2000 7150 2000
+Wire Wire Line
+	1300 2200 650  2200
+Text Label 650  2200 0    60   ~ 0
+SPI1_MOSI
+Wire Wire Line
+	1300 2100 650  2100
+Text Label 650  2100 0    60   ~ 0
+SPI1_MISO
+Wire Wire Line
+	7800 2100 7150 2100
+Wire Wire Line
+	7800 2200 7150 2200
+Text Label 7150 2100 0    60   ~ 0
+SPI1_MISO
+Text Label 7150 2200 0    60   ~ 0
+SPI1_MOSI
+Wire Wire Line
+	7800 2300 7150 2300
+Wire Wire Line
+	1300 1900 650  1900
+Text Label 650  1900 0    60   ~ 0
+SPI1_CE1
+Text Label 7150 2300 0    60   ~ 0
+SPI1_CE1
+Wire Notes Line
+	7000 600  11150 600 
+Wire Notes Line
+	11150 600  11150 3400
+Wire Notes Line
+	11150 3400 7000 3400
+Wire Notes Line
+	7000 3400 7000 600 
+Text Notes 7100 800  0    60   ~ 0
+Joystick and A/D Converter
+$Comp
+L power:GND #PWR08
+U 1 1 5B48F580
+P 7450 4300
+F 0 "#PWR08" H 7450 4050 50  0001 C CNN
+F 1 "GND" H 7450 4150 50  0000 C CNN
+F 2 "" H 7450 4300 50  0001 C CNN
+F 3 "" H 7450 4300 50  0001 C CNN
+	1    7450 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 4000 7450 4000
+Wire Wire Line
+	7450 4000 7450 3750
+Wire Wire Line
+	8400 4100 7450 4100
+Wire Wire Line
+	7450 4100 7450 4300
+Wire Wire Line
+	8400 4200 7700 4200
+Text Label 7700 4200 0    60   ~ 0
+SPI0_CE0
+Wire Wire Line
+	8400 4300 7700 4300
+Wire Wire Line
+	8400 4400 7700 4400
+Wire Wire Line
+	8400 4700 7700 4700
+Text Label 7700 4300 0    60   ~ 0
+LCD_RESET
+Text Label 7700 4400 0    60   ~ 0
+LCD_DC
+Text Label 7700 4700 0    60   ~ 0
+LCD_BKLT
+Wire Wire Line
+	8400 4500 7700 4500
+Wire Wire Line
+	8400 4600 7700 4600
+Text Label 7700 4500 0    60   ~ 0
+SPI0_MOSI
+Text Label 7700 4600 0    60   ~ 0
+SPI0_SCK
+NoConn ~ 8400 4800
+NoConn ~ 9000 2000
+NoConn ~ 9000 2100
+NoConn ~ 9000 2200
+NoConn ~ 9000 2300
+NoConn ~ 9000 2400
+Wire Wire Line
+	3100 2400 3800 2400
+Text Label 3800 2400 2    60   ~ 0
+SPI0_CE0
+NoConn ~ 3100 2500
+Wire Wire Line
+	3100 2600 3800 2600
+Text Label 3800 2600 2    60   ~ 0
+SPI0_MOSI
+Wire Wire Line
+	3800 2700 3100 2700
+Text Label 3800 2700 2    60   ~ 0
+SPI0_SCK
+Wire Wire Line
+	1300 2500 650  2500
+Text Label 650  2500 0    60   ~ 0
+LCD_BKLT
+Wire Wire Line
+	1300 2400 650  2400
+Text Label 650  2400 0    60   ~ 0
+LCD_DC
+Wire Wire Line
+	1300 2900 650  2900
+Text Label 650  2900 0    60   ~ 0
+LCD_RESET
+Wire Notes Line
+	11150 3500 7000 3500
+Wire Notes Line
+	7000 3500 7000 5750
+Wire Notes Line
+	7000 5750 11150 5750
+Wire Notes Line
+	11150 5750 11150 3500
+Text Notes 10500 3650 0    60   ~ 0
+ILI9341 LCD
+$Comp
+L HackPackv4-rescue:WS2812B U4
+U 1 1 5B48FF72
+P 5600 1450
+F 0 "U4" H 6050 1800 60  0000 C CNN
+F 1 "WS2812B" H 5700 1000 60  0000 C CNN
+F 2 "HackPack_Footprints:LED_WS2812B-PLCC4" H 5850 1400 60  0001 C CNN
+F 3 "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf" H 5850 1400 60  0001 C CNN
+F 4 "Inolux" H 5600 1450 60  0001 C CNN "MFN"
+F 5 "IN-PI554FCH" H 5600 1450 60  0001 C CNN "MFP"
+F 6 "" H 5600 1450 60  0001 C CNN "S1PN"
+F 7 "" H 5600 1450 60  0001 C CNN "S1PL"
+F 8 "LED RGB 5050 SMD" H 5600 1450 60  0001 C CNN "Description"
+F 9 "N" H 5600 1450 60  0001 C CNN "Can_Substitute"
+	1    5600 1450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2000 650  2000
+Text Label 650  2000 0    60   ~ 0
+LED_DATA
+Wire Wire Line
+	5100 1300 4700 1300
+Text Label 4700 1300 0    60   ~ 0
+LED_DATA
+Wire Wire Line
+	6050 1600 6350 1600
+Wire Wire Line
+	6350 1600 6350 2600
+Wire Wire Line
+	6350 2600 6050 2600
+Wire Wire Line
+	4750 3900 5100 3900
+Wire Wire Line
+	6050 4200 6350 4200
+Wire Wire Line
+	6350 4200 6350 5200
+Wire Wire Line
+	6350 5200 6050 5200
+Wire Wire Line
+	5100 5500 4700 5500
+Wire Wire Line
+	4700 6500 5050 6500
+$Comp
+L Device:D D1
+U 1 1 5B490A62
+P 6350 1050
+F 0 "D1" H 6450 950 50  0000 C CNN
+F 1 "MMSD4148" H 6350 1150 39  0000 C CNN
+F 2 "HackPack_Footprints:D_SOD-123" H 6350 1050 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MMSD4148T1-D.PDF" H 6350 1050 50  0001 C CNN
+F 4 "ON Semiconductor" H 6350 1050 60  0001 C CNN "MFN"
+F 5 "" H 6350 1050 60  0001 C CNN "S1PN"
+F 6 "" H 6350 1050 60  0001 C CNN "S1PL"
+F 7 "MUST DROP >= .3 Forward Voltage!! SMD Diode Switching 100V-200mA" H 6350 1050 60  0001 C CNN "Characteristics"
+F 8 "SMD Diode Switching 100V-200mA" H 6350 1050 60  0001 C CNN "Description"
+F 9 "N" H 6350 1050 60  0001 C CNN "Can_Substitute"
+F 10 "To drop voltage for the first LED to meet the 70% spec." H 6350 1050 60  0001 C CNN "Notes"
+F 11 "MMSD4148T3G" H 6350 1050 60  0001 C CNN "MFP"
+	1    6350 1050
+	0    -1   -1   0   
+$EndComp
+Text Notes 6000 900  0    31   ~ 0
+¯\_(-_-)_/¯
+$Comp
+L power:GND #PWR09
+U 1 1 5B490CDA
+P 4750 1700
+F 0 "#PWR09" H 4750 1450 50  0001 C CNN
+F 1 "GND" H 4750 1550 50  0000 C CNN
+F 2 "" H 4750 1700 50  0001 C CNN
+F 3 "" H 4750 1700 50  0001 C CNN
+	1    4750 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1600 4750 1600
+Wire Wire Line
+	4750 1600 4750 1700
+$Comp
+L power:GND #PWR010
+U 1 1 5B490DC2
+P 6350 3000
+F 0 "#PWR010" H 6350 2750 50  0001 C CNN
+F 1 "GND" H 6350 2850 50  0000 C CNN
+F 2 "" H 6350 3000 50  0001 C CNN
+F 3 "" H 6350 3000 50  0001 C CNN
+	1    6350 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3000 6350 2900
+Wire Wire Line
+	6350 2900 6050 2900
+$Comp
+L power:GND #PWR011
+U 1 1 5B490EA2
+P 6350 5600
+F 0 "#PWR011" H 6350 5350 50  0001 C CNN
+F 1 "GND" H 6350 5450 50  0000 C CNN
+F 2 "" H 6350 5600 50  0001 C CNN
+F 3 "" H 6350 5600 50  0001 C CNN
+	1    6350 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 5600 6350 5500
+Wire Wire Line
+	6350 5500 6050 5500
+$Comp
+L power:GND #PWR012
+U 1 1 5B490EE8
+P 4750 4300
+F 0 "#PWR012" H 4750 4050 50  0001 C CNN
+F 1 "GND" H 4750 4150 50  0000 C CNN
+F 2 "" H 4750 4300 50  0001 C CNN
+F 3 "" H 4750 4300 50  0001 C CNN
+	1    4750 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4200 4750 4200
+Wire Wire Line
+	4750 4200 4750 4300
+Wire Wire Line
+	5100 2900 4750 2900
+Wire Wire Line
+	4750 2900 4750 3900
+NoConn ~ 6000 6800
+$Comp
+L power:GND #PWR013
+U 1 1 5B491108
+P 4700 6900
+F 0 "#PWR013" H 4700 6650 50  0001 C CNN
+F 1 "GND" H 4700 6750 50  0000 C CNN
+F 2 "" H 4700 6900 50  0001 C CNN
+F 3 "" H 4700 6900 50  0001 C CNN
+	1    4700 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 6800 4700 6800
+Wire Wire Line
+	6350 3750 6350 3900
+Wire Notes Line
+	5950 800  6800 800 
+Wire Notes Line
+	5950 1200 5950 800 
+Wire Wire Line
+	4750 2200 4750 2600
+Wire Wire Line
+	4750 2600 5100 2600
+Wire Wire Line
+	4750 5050 4750 5200
+Wire Wire Line
+	4750 5200 5100 5200
+Wire Notes Line
+	6900 600  6900 7500
+Wire Notes Line
+	6900 600  4400 600 
+Wire Notes Line
+	4400 600  4400 7500
+Wire Notes Line
+	4400 7500 6900 7500
+Wire Notes Line
+	6800 1200 5950 1200
+Wire Wire Line
+	6350 1300 6050 1300
+$Comp
+L power:GND #PWR014
+U 1 1 5B4922FE
+P 6600 1700
+F 0 "#PWR014" H 6600 1450 50  0001 C CNN
+F 1 "GND" H 6600 1550 50  0000 C CNN
+F 2 "" H 6600 1700 50  0001 C CNN
+F 3 "" H 6600 1700 50  0001 C CNN
+	1    6600 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 1600 6600 1700
+$Comp
+L Device:C_Small C3
+U 1 1 5B49255E
+P 3050 7100
+F 0 "C3" H 3060 7170 50  0000 L CNN
+F 1 ".1uF" H 3060 7020 50  0000 L CNN
+F 2 "HackPack_Footprints:C_0603" H 3050 7100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" H 3050 7100 50  0001 C CNN
+F 4 "MURATA" H 3050 7100 60  0001 C CNN "MFN"
+F 5 "GCM188R71H104KA57D" H 3050 7100 60  0001 C CNN "MFP"
+F 6 "" H 3050 7100 60  0001 C CNN "S1PN"
+F 7 "" H 3050 7100 60  0001 C CNN "S1PL"
+F 8 "0603 100nF-50V-10%-X7R" H 3050 7100 60  0001 C CNN "Characteristics"
+F 9 "CAP CER 0.1UF 50V X7R 0603" H 3050 7100 60  0001 C CNN "Description"
+F 10 "Y" H 3050 7100 60  0001 C CNN "Can_Substitute"
+	1    3050 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 7250 3950 7200
+Wire Wire Line
+	3650 7250 3650 7200
+Wire Wire Line
+	3350 7250 3350 7200
+Connection ~ 3650 7250
+Wire Wire Line
+	3050 7250 3050 7200
+Connection ~ 3350 7250
+Wire Wire Line
+	3350 6900 3350 6950
+Wire Wire Line
+	3650 6950 3650 7000
+Connection ~ 3350 6950
+Wire Wire Line
+	3950 6950 3950 7000
+Connection ~ 3650 6950
+Wire Notes Line
+	2700 4250 4300 4250
+Wire Notes Line
+	4300 4250 4300 4650
+Wire Notes Line
+	4300 4650 2700 4650
+Wire Notes Line
+	2700 4650 2700 4250
+Text Notes 2750 4350 0    60   ~ 0
+Power Button
+Wire Wire Line
+	4700 5500 4700 6500
+Text Notes 4450 750  0    60   ~ 0
+RGB Strip
+Text Notes 5300 1050 0    31   ~ 0
+(This one is FAR LEFT)
+Wire Notes Line
+	500  600  4300 600 
+Wire Notes Line
+	2600 4650 500  4650
+Wire Notes Line
+	500  4650 500  600 
+Text Notes 600  800  0    60   ~ 0
+Pi Zero W
+$Comp
+L power:+3.3V #PWR015
+U 1 1 5B493AF2
+P 3600 3000
+F 0 "#PWR015" H 3600 2850 50  0001 C CNN
+F 1 "+3.3V" H 3600 3140 50  0000 C CNN
+F 2 "" H 3600 3000 50  0001 C CNN
+F 3 "" H 3600 3000 50  0001 C CNN
+	1    3600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 5B493B45
+P 3600 3600
+F 0 "#PWR016" H 3600 3350 50  0001 C CNN
+F 1 "GND" H 3600 3450 50  0000 C CNN
+F 2 "" H 3600 3600 50  0001 C CNN
+F 3 "" H 3600 3600 50  0001 C CNN
+	1    3600 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3400 3850 3400
+Wire Wire Line
+	3600 3400 3600 3600
+Wire Wire Line
+	1300 1800 650  1800
+Wire Wire Line
+	3100 2900 3400 2900
+Wire Wire Line
+	1300 2600 650  2600
+Wire Wire Line
+	1300 2700 650  2700
+Wire Wire Line
+	3100 3000 3400 3000
+Wire Wire Line
+	3150 1000 3350 1000
+Wire Wire Line
+	3150 850  3150 1000
+$Comp
+L power:GND #PWR018
+U 1 1 5B4958A9
+P 3150 1250
+F 0 "#PWR018" H 3150 1000 50  0001 C CNN
+F 1 "GND" H 3150 1100 50  0000 C CNN
+F 2 "" H 3150 1250 50  0001 C CNN
+F 3 "" H 3150 1250 50  0001 C CNN
+	1    3150 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR019
+U 1 1 5B495941
+P 3150 850
+F 0 "#PWR019" H 3150 700 50  0001 C CNN
+F 1 "+3.3V" H 3150 990 50  0000 C CNN
+F 2 "" H 3150 850 50  0001 C CNN
+F 3 "" H 3150 850 50  0001 C CNN
+	1    3150 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L HackPackv4-rescue:Conn_02x02_Odd_Even J2
+U 1 1 5B495ACA
+P 3550 1000
+F 0 "J2" H 3600 1100 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 3600 1200 50  0000 C CNN
+F 2 "HackPack_Footprints:Pin_Header_Straight_2x02_Pitch2.54mm" H 3550 1000 50  0001 C CNN
+F 3 "NONE" H 3550 1000 50  0001 C CNN
+F 4 "NO NOT POPULATE" H 3550 1000 50  0001 C CNN "Characteristics"
+F 5 "NO NOT POPULATE" H 3550 1000 50  0001 C CNN "Description"
+F 6 "N" H 3550 1000 50  0001 C CNN "Can_Substitute"
+F 7 "NO NOT POPULATE" H 3550 1000 50  0001 C CNN "Notes"
+F 8 "NO NOT POPULATE" H 3550 1000 50  0001 C CNN "Package"
+F 9 "DNP" H 0   0   50  0001 C CNN "MFP"
+F 10 "DNP" H 0   0   50  0001 C CNN "MFN"
+	1    3550 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 1100 3150 1100
+Wire Wire Line
+	3150 1100 3150 1250
+Wire Wire Line
+	3850 1000 4150 1000
+Wire Wire Line
+	3850 1100 3950 1100
+Text Label 4150 1100 2    60   ~ 0
+SCL
+Text Label 4150 1000 2    60   ~ 0
+SDA
+Wire Wire Line
+	3450 1700 3450 1500
+Wire Wire Line
+	3450 1500 3950 1500
+Wire Wire Line
+	3950 1500 3950 1100
+Connection ~ 3950 1100
+Connection ~ 3450 1700
+Wire Wire Line
+	3100 1600 3350 1600
+Text Label 3350 1600 2    60   ~ 0
+SDA
+NoConn ~ 1300 3200
+NoConn ~ 1300 3300
+NoConn ~ 3100 2300
+Wire Wire Line
+	1300 2800 650  2800
+Text Label 650  2800 0    60   ~ 0
+START_B
+Text Label 650  1800 0    60   ~ 0
+SELECT_B
+Text Label 3400 3000 2    60   ~ 0
+A_B
+Text Label 3400 2900 2    60   ~ 0
+X_B
+Text Label 650  2700 0    60   ~ 0
+B_B
+Text Label 650  2600 0    60   ~ 0
+Y_B
+$Comp
+L HackPackv4-rescue:SW_Push SW1
+U 1 1 5B496F9B
+P 1600 5600
+F 0 "SW1" H 1650 5700 50  0000 L CNN
+F 1 "SEL_B" H 1600 5540 50  0000 C CNN
+F 2 "HackPack_Footprints:TS-1109_6.2mm_Push" H 1600 5800 50  0001 C CNN
+F 3 "https://www.ctscorp.com/wp-content/uploads/222A.pdf" H 1600 5800 50  0001 C CNN
+F 4 "CTS Electrocomponents" H 1600 5600 60  0001 C CNN "MFN"
+F 5 "222ADVBA" H 1600 5600 60  0001 C CNN "MFP"
+F 6 "" H 1600 5600 60  0001 C CNN "S1PN"
+F 7 "" H 1600 5600 60  0001 C CNN "S1PL"
+F 8 "DIP Button;SPST;160gf" H 1600 5600 60  0001 C CNN "Description"
+F 9 "N" H 1600 5600 60  0001 C CNN "Can_Substitute"
+F 10 "Used for SEL/START/A/B/X/Y Buttons" H 1600 5600 60  0001 C CNN "Notes"
+	1    1600 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 6550 1400 6550
+Wire Wire Line
+	550  6550 1100 6550
+Text Label 550  6550 0    60   ~ 0
+START_B
+$Comp
+L Device:R_Small R1
+U 1 1 5B497A9C
+P 1200 5600
+F 0 "R1" H 1230 5620 50  0000 L CNN
+F 1 "1k" H 1230 5560 50  0000 L CNN
+F 2 "HackPack_Footprints:R_0805" H 1200 5600 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 1200 5600 50  0001 C CNN
+F 4 "Yageo" H 1200 5600 60  0001 C CNN "MFN"
+F 5 "RC0805JR-071KL" H 1200 5600 60  0001 C CNN "MFP"
+F 6 "" H 1200 5600 60  0001 C CNN "S1PN"
+F 7 "" H 1200 5600 60  0001 C CNN "S1PL"
+F 8 "1K 5% 1/8W" H 1200 5600 60  0001 C CNN "Characteristics"
+F 9 "SMD RES 1K-5%-1/8W;0805" H 1200 5600 60  0001 C CNN "Description"
+F 10 "Y" H 1200 5600 60  0001 C CNN "Can_Substitute"
+F 11 "" H 0   0   50  0001 C CNN "MPN"
+	1    1200 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 5600 1400 5600
+Text Label 550  5600 0    60   ~ 0
+SELECT_B
+Wire Wire Line
+	2200 5200 2400 5200
+Wire Wire Line
+	2000 5200 1500 5200
+Wire Wire Line
+	2200 6150 2400 6150
+Wire Wire Line
+	2000 6150 1500 6150
+Wire Wire Line
+	3400 5850 3600 5850
+Wire Wire Line
+	3200 5850 2700 5850
+Wire Wire Line
+	3350 4900 3550 4900
+Wire Wire Line
+	3150 4900 2650 4900
+Wire Wire Line
+	1100 5600 550  5600
+Text Label 1500 6150 0    60   ~ 0
+A_B
+Text Label 1500 5200 0    60   ~ 0
+X_B
+Text Label 2700 5850 0    60   ~ 0
+B_B
+Text Label 2650 4900 0    60   ~ 0
+Y_B
+Wire Wire Line
+	2000 5600 1800 5600
+Wire Wire Line
+	2000 6550 1800 6550
+Wire Wire Line
+	3000 6150 2800 6150
+Wire Wire Line
+	3000 5200 2800 5200
+Wire Wire Line
+	4150 4900 3950 4900
+Wire Wire Line
+	4200 5850 4000 5850
+Wire Notes Line
+	4300 6700 4300 7500
+Wire Notes Line
+	4300 4700 500  4700
+Wire Notes Line
+	500  4700 500  7500
+Wire Wire Line
+	2500 3800 2500 4100
+Wire Wire Line
+	2500 4450 2800 4450
+Connection ~ 2500 4100
+Wire Notes Line
+	2600 4650 2600 4150
+Wire Notes Line
+	2600 4150 4300 4150
+Wire Notes Line
+	4300 4150 4300 600 
+Text Notes 3450 1250 0    35   ~ 0
+For SBAoS
+$Comp
+L power:+3.3V #PWR020
+U 1 1 5B4D0A61
+P 2000 6550
+F 0 "#PWR020" H 2000 6400 50  0001 C CNN
+F 1 "+3.3V" H 2000 6690 50  0000 C CNN
+F 2 "" H 2000 6550 50  0001 C CNN
+F 3 "" H 2000 6550 50  0001 C CNN
+	1    2000 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR021
+U 1 1 5B4D0BC7
+P 2000 5600
+F 0 "#PWR021" H 2000 5450 50  0001 C CNN
+F 1 "+3.3V" H 2000 5740 50  0000 C CNN
+F 2 "" H 2000 5600 50  0001 C CNN
+F 3 "" H 2000 5600 50  0001 C CNN
+	1    2000 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR022
+U 1 1 5B4D0C5A
+P 3000 6150
+F 0 "#PWR022" H 3000 6000 50  0001 C CNN
+F 1 "+3.3V" H 3000 6290 50  0000 C CNN
+F 2 "" H 3000 6150 50  0001 C CNN
+F 3 "" H 3000 6150 50  0001 C CNN
+	1    3000 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR023
+U 1 1 5B4D0CCB
+P 3000 5200
+F 0 "#PWR023" H 3000 5050 50  0001 C CNN
+F 1 "+3.3V" H 3000 5340 50  0000 C CNN
+F 2 "" H 3000 5200 50  0001 C CNN
+F 3 "" H 3000 5200 50  0001 C CNN
+	1    3000 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR024
+U 1 1 5B4D0D3C
+P 4150 4900
+F 0 "#PWR024" H 4150 4750 50  0001 C CNN
+F 1 "+3.3V" H 4150 5040 50  0000 C CNN
+F 2 "" H 4150 4900 50  0001 C CNN
+F 3 "" H 4150 4900 50  0001 C CNN
+	1    4150 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR025
+U 1 1 5B4D1005
+P 4200 5850
+F 0 "#PWR025" H 4200 5700 50  0001 C CNN
+F 1 "+3.3V" H 4200 5990 50  0000 C CNN
+F 2 "" H 4200 5850 50  0001 C CNN
+F 3 "" H 4200 5850 50  0001 C CNN
+	1    4200 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR026
+U 1 1 5B4D14B8
+P 1250 3900
+F 0 "#PWR026" H 1250 3750 50  0001 C CNN
+F 1 "+5V" H 1250 4040 50  0000 C CNN
+F 2 "" H 1250 3900 50  0001 C CNN
+F 3 "" H 1250 3900 50  0001 C CNN
+	1    1250 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 5B4D1533
+P 650 4450
+F 0 "#PWR027" H 650 4200 50  0001 C CNN
+F 1 "GND" H 650 4300 50  0000 C CNN
+F 2 "" H 650 4450 50  0001 C CNN
+F 3 "" H 650 4450 50  0001 C CNN
+	1    650  4450
+	1    0    0    -1  
+$EndComp
+Text Notes 550  3750 0    39   ~ 0
+Smoothing
+Wire Wire Line
+	4700 6800 4700 6900
+Wire Wire Line
+	6350 3900 6050 3900
+Text Notes 2950 7500 0    60   ~ 0
+Decap for WS2812Bs
+$Comp
+L power:GND #PWR028
+U 1 1 5B4E2D12
+P 7300 3100
+F 0 "#PWR028" H 7300 2850 50  0001 C CNN
+F 1 "GND" H 7300 2950 50  0000 C CNN
+F 2 "" H 7300 3100 50  0001 C CNN
+F 3 "" H 7300 3100 50  0001 C CNN
+	1    7300 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 2750 7300 2800
+Wire Wire Line
+	7300 3000 7300 3100
+$Comp
+L power:+3.3V #PWR029
+U 1 1 5B4E2FD3
+P 7300 2750
+F 0 "#PWR029" H 7300 2600 50  0001 C CNN
+F 1 "+3.3V" H 7300 2890 50  0000 C CNN
+F 2 "" H 7300 2750 50  0001 C CNN
+F 3 "" H 7300 2750 50  0001 C CNN
+	1    7300 2750
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7650 2500 7000 2500
+Wire Notes Line
+	7650 2500 7650 3400
+$Comp
+L HackPackv4-rescue:Raspberry_Pi_Zero_W J1
+U 1 1 5B4E47A2
+P 2200 2500
+F 0 "J1" H 2900 1250 50  0000 C CNN
+F 1 "Raspberry_Pi_Zero_W" H 1800 3400 50  0000 C CNN
+F 2 "HackPack_Footprints:M20-7812045" H 3200 3750 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/M20-781.pdf" H 2250 2350 50  0001 C CNN
+F 4 "Samtec" H 2200 2500 60  0001 C CNN "MFN"
+F 5 "HLE-120-02-G-DV-A" H 2200 2500 60  0001 C CNN "MFP"
+F 6 "" H 2200 2500 60  0001 C CNN "S1PN"
+F 7 "" H 2200 2500 60  0001 C CNN "S1PL"
+F 8 "" H 2200 2500 60  0001 C CNN "S2PN"
+F 9 "" H 2200 2500 60  0001 C CNN "S2PL"
+F 10 "" H 2200 2500 60  0001 C CNN "S3PN"
+F 11 "" H 2200 2500 60  0001 C CNN "S3PL"
+F 12 "" H 2200 2500 60  0001 C CNN "S4PN"
+F 13 "" H 2200 2500 60  0001 C CNN "S4PL"
+F 14 "" H 2200 2500 50  0001 C CNN "S5PN"
+F 15 "" H 2200 2500 50  0001 C CNN "S5PL"
+F 16 "40 Pin 2x20 2.54mm pitch SMD." H 2200 2500 60  0001 C CNN "Characteristics"
+F 17 "Surface mount low profile header 40 pin 2 row" H 2200 2500 60  0001 C CNN "Description"
+F 18 "Y" H 2200 2500 60  0001 C CNN "Can_Substitute"
+F 19 "WAIT ON SUBSTITUTE FROM ERIN & TWILIO" H 2200 2500 60  0001 C CNN "Notes"
+	1    2200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG030
+U 1 1 5B4E4D0D
+P 10950 6100
+F 0 "#FLG030" H 10950 6175 50  0001 C CNN
+F 1 "PWR_FLAG" H 10950 6250 50  0000 C CNN
+F 2 "" H 10950 6100 50  0001 C CNN
+F 3 "" H 10950 6100 50  0001 C CNN
+	1    10950 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG031
+U 1 1 5B4E4D85
+P 10600 6250
+F 0 "#FLG031" H 10600 6325 50  0001 C CNN
+F 1 "PWR_FLAG" H 10600 6400 50  0000 C CNN
+F 2 "" H 10600 6250 50  0001 C CNN
+F 3 "" H 10600 6250 50  0001 C CNN
+	1    10600 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR032
+U 1 1 5B4E4F14
+P 10600 6100
+F 0 "#PWR032" H 10600 5950 50  0001 C CNN
+F 1 "+3.3V" H 10600 6240 50  0000 C CNN
+F 2 "" H 10600 6100 50  0001 C CNN
+F 3 "" H 10600 6100 50  0001 C CNN
+	1    10600 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR033
+U 1 1 5B4E4FFE
+P 10950 6250
+F 0 "#PWR033" H 10950 6000 50  0001 C CNN
+F 1 "GND" H 10950 6100 50  0000 C CNN
+F 2 "" H 10950 6250 50  0001 C CNN
+F 3 "" H 10950 6250 50  0001 C CNN
+	1    10950 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10950 6100 10950 6250
+Wire Wire Line
+	10600 6100 10600 6250
+$Comp
+L power:+5V #PWR034
+U 1 1 5B4E52DF
+P 10200 6100
+F 0 "#PWR034" H 10200 5950 50  0001 C CNN
+F 1 "+5V" H 10200 6240 50  0000 C CNN
+F 2 "" H 10200 6100 50  0001 C CNN
+F 3 "" H 10200 6100 50  0001 C CNN
+	1    10200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG035
+U 1 1 5B4E5357
+P 10200 6250
+F 0 "#FLG035" H 10200 6325 50  0001 C CNN
+F 1 "PWR_FLAG" H 10200 6400 50  0000 C CNN
+F 2 "" H 10200 6250 50  0001 C CNN
+F 3 "" H 10200 6250 50  0001 C CNN
+	1    10200 6250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10200 6250 10200 6100
+Wire Notes Line
+	11150 5800 11150 6500
+Text Notes 10100 5900 0    39   ~ 0
+Make ERC Happy (Non physical)
+Wire Wire Line
+	6350 6100 6350 6500
+Wire Wire Line
+	6350 6500 6000 6500
+$Comp
+L HackPackv4-rescue:+5V_Lights #PWR036
+U 1 1 5B551752
+P 6350 800
+F 0 "#PWR036" H 6350 650 50  0001 C CNN
+F 1 "+5V_Lights" H 6350 940 50  0000 C CNN
+F 2 "" H 6350 800 50  0001 C CNN
+F 3 "" H 6350 800 50  0001 C CNN
+	1    6350 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L HackPackv4-rescue:+5V_Lights #PWR037
+U 1 1 5B5517EC
+P 4750 2200
+F 0 "#PWR037" H 4750 2050 50  0001 C CNN
+F 1 "+5V_Lights" H 4750 2340 50  0000 C CNN
+F 2 "" H 4750 2200 50  0001 C CNN
+F 3 "" H 4750 2200 50  0001 C CNN
+	1    4750 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L HackPackv4-rescue:+5V_Lights #PWR038
+U 1 1 5B55185D
+P 6350 3750
+F 0 "#PWR038" H 6350 3600 50  0001 C CNN
+F 1 "+5V_Lights" H 6350 3890 50  0000 C CNN
+F 2 "" H 6350 3750 50  0001 C CNN
+F 3 "" H 6350 3750 50  0001 C CNN
+	1    6350 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L HackPackv4-rescue:+5V_Lights #PWR039
+U 1 1 5B5518CE
+P 6350 6100
+F 0 "#PWR039" H 6350 5950 50  0001 C CNN
+F 1 "+5V_Lights" H 6350 6240 50  0000 C CNN
+F 2 "" H 6350 6100 50  0001 C CNN
+F 3 "" H 6350 6100 50  0001 C CNN
+	1    6350 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L HackPackv4-rescue:+5V_Lights #PWR040
+U 1 1 5B55193F
+P 4750 5050
+F 0 "#PWR040" H 4750 4900 50  0001 C CNN
+F 1 "+5V_Lights" H 4750 5190 50  0000 C CNN
+F 2 "" H 4750 5050 50  0001 C CNN
+F 3 "" H 4750 5050 50  0001 C CNN
+	1    4750 5050
+	1    0    0    -1  
+$EndComp
+Text Notes 5250 6250 0    31   ~ 0
+(This one is FAR RIGHT)
+$Comp
+L Device:R R8
+U 1 1 5B552265
+P 7500 5950
+F 0 "R8" V 7400 6050 50  0000 C CNN
+F 1 "100" V 7500 5950 50  0000 C CNN
+F 2 "HackPack_Footprints:R_0805" V 7430 5950 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 7500 5950 50  0001 C CNN
+F 4 "Yageo" H 7500 5950 60  0001 C CNN "MFN"
+F 5 "RC0805JR-07100RL" H 7500 5950 60  0001 C CNN "MFP"
+F 6 "" H 7500 5950 60  0001 C CNN "S1PN"
+F 7 "" H 7500 5950 60  0001 C CNN "S1PL"
+F 8 "100R 5% 1/8W 0805" H 7500 5950 60  0001 C CNN "Characteristics"
+F 9 "SMD RES 100R-5%-1/8W" H 7500 5950 60  0001 C CNN "Description"
+F 10 "Y" H 7500 5950 60  0001 C CNN "Can_Substitute"
+F 11 "MOSFET Gate Input Protection" H 0   0   50  0001 C CNN "Notes"
+	1    7500 5950
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	6800 800  6800 1200
+$Comp
+L HackPackv4-rescue:+5V_Lights #PWR041
+U 1 1 5B552DEF
+P 7250 6250
+F 0 "#PWR041" H 7250 6100 50  0001 C CNN
+F 1 "+5V_Lights" H 7250 6390 50  0000 C CNN
+F 2 "" H 7250 6250 50  0001 C CNN
+F 3 "" H 7250 6250 50  0001 C CNN
+	1    7250 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR042
+U 1 1 5B553286
+P 8350 6250
+F 0 "#PWR042" H 8350 6100 50  0001 C CNN
+F 1 "+5V" H 8350 6390 50  0000 C CNN
+F 2 "" H 8350 6250 50  0001 C CNN
+F 3 "" H 8350 6250 50  0001 C CNN
+	1    8350 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 6250 8150 6250
+Wire Wire Line
+	7550 6250 7250 6250
+$Comp
+L Device:R R9
+U 1 1 5B5548AC
+P 8000 5950
+F 0 "R9" V 7900 6050 50  0000 C CNN
+F 1 "10k" V 8000 5950 50  0000 C CNN
+F 2 "HackPack_Footprints:R_0805" V 7930 5950 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 8000 5950 50  0001 C CNN
+F 4 "Yageo" H 8000 5950 60  0001 C CNN "MFN"
+F 5 "" H 8000 5950 60  0001 C CNN "S1PN"
+F 6 "" H 8000 5950 60  0001 C CNN "S1PL"
+F 7 "10K 1% or 5% 1/8W" H 8000 5950 60  0001 C CNN "Characteristics"
+F 8 "SMD RES 10K-1%-1/8W;0805" H 8000 5950 60  0001 C CNN "Description"
+F 9 "Y" H 8000 5950 60  0001 C CNN "Can_Substitute"
+F 10 "MOSFET Gate Pullup" H 8000 5950 60  0001 C CNN "Notes"
+F 11 "RC0805FR-0710KL" H 8000 5950 60  0001 C CNN "MFP"
+	1    8000 5950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8150 5950 8150 6250
+Connection ~ 8150 6250
+Wire Wire Line
+	7350 5950 7050 5950
+Text Label 7050 5950 0    60   ~ 0
+~LED_ON
+$Comp
+L power:+5V #PWR043
+U 1 1 5B555339
+P 9750 6250
+F 0 "#PWR043" H 9750 6100 50  0001 C CNN
+F 1 "+5V" H 9750 6390 50  0000 C CNN
+F 2 "" H 9750 6250 50  0001 C CNN
+F 3 "" H 9750 6250 50  0001 C CNN
+	1    9750 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 6250 9550 6250
+Wire Wire Line
+	8950 6250 8650 6250
+Wire Wire Line
+	9550 5950 9550 6250
+Connection ~ 9550 6250
+Wire Wire Line
+	8750 5950 8450 5950
+Text Label 8450 5950 0    60   ~ 0
+~LCD_ON
+Wire Notes Line
+	11150 5800 9950 5800
+Wire Notes Line
+	9950 5800 9950 6500
+Wire Notes Line
+	9950 6500 11150 6500
+$Comp
+L HackPackv4-rescue:+5V_LCD #PWR044
+U 1 1 5B555970
+P 8650 6250
+F 0 "#PWR044" H 8650 6100 50  0001 C CNN
+F 1 "+5V_LCD" H 8650 6390 50  0000 C CNN
+F 2 "" H 8650 6250 50  0001 C CNN
+F 3 "" H 8650 6250 50  0001 C CNN
+	1    8650 6250
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	9900 6500 9900 5800
+Text Notes 8100 6450 0    59   ~ 0
+Light and LCD Power
+Wire Notes Line
+	9900 5800 7000 5800
+Wire Notes Line
+	7000 5800 7000 6500
+Wire Notes Line
+	7000 6500 9900 6500
+$Comp
+L HackPackv4-rescue:+5V_LCD #PWR045
+U 1 1 5B5565E8
+P 7450 3750
+F 0 "#PWR045" H 7450 3600 50  0001 C CNN
+F 1 "+5V_LCD" H 7450 3890 50  0000 C CNN
+F 2 "" H 7450 3750 50  0001 C CNN
+F 3 "" H 7450 3750 50  0001 C CNN
+	1    7450 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 6950 3350 6950
+Wire Wire Line
+	3050 7250 3350 7250
+Wire Notes Line
+	4300 6700 2950 6700
+Wire Notes Line
+	2950 6700 2950 7500
+Wire Notes Line
+	2950 7500 4300 7500
+Wire Wire Line
+	3100 2000 3800 2000
+Text Label 3800 2000 2    60   ~ 0
+~LCD_ON
+Wire Wire Line
+	3100 2100 3800 2100
+Text Label 3800 2100 2    60   ~ 0
+~LED_ON
+Wire Wire Line
+	3100 1800 3800 1800
+Text Label 3800 1800 2    60   ~ 0
+CS_TOUCH
+Wire Wire Line
+	8400 5000 7700 5000
+Text Label 7700 5000 0    60   ~ 0
+CS_TOUCH
+Wire Wire Line
+	8400 4900 7700 4900
+Text Label 7700 4900 0    60   ~ 0
+SPI1_SCK
+Wire Wire Line
+	8400 5100 7700 5100
+Wire Wire Line
+	8400 5200 7700 5200
+Wire Wire Line
+	8400 5300 7700 5300
+Text Label 7700 5100 0    60   ~ 0
+SPI1_MOSI
+Text Label 7700 5200 0    60   ~ 0
+SPI1_MISO
+Text Label 7700 5300 0    60   ~ 0
+IRQ_TOUCH
+Wire Wire Line
+	9000 2500 9700 2500
+Text Label 9700 2500 2    60   ~ 0
+IRQ_TOUCH
+$Comp
+L HackPackv4-rescue:ILI9341_28_TFT_LCD_TOUCH U7
+U 1 1 5B55A07F
+P 9800 4650
+F 0 "U7" H 10600 5450 60  0000 C CNN
+F 1 "ILI9341_28_TFT_LCD_TOUCH" H 10150 3750 60  0000 C CNN
+F 2 "HackPack_Footprints:ILI9341_TFT_LCD" H 10750 4850 60  0001 C CNN
+F 3 "NONE" H 10750 4850 60  0001 C CNN
+F 4 "ILI9341 Resistive Touchscreen 2.8\" TFT LCD" H 9800 4650 50  0001 C CNN "Characteristics"
+F 5 "Screen & touch controller from Alibaba/Amazon" H 9800 4650 50  0001 C CNN "Description"
+F 6 "N" H 9800 4650 50  0001 C CNN "Can_Substitute"
+F 7 "Solder directly no header" H 9800 4650 50  0001 C CNN "Notes"
+F 8 "CUSTOM" H 9800 4650 50  0001 C CNN "Package"
+F 9 "ILI9341" H 0   0   50  0001 C CNN "MFN"
+F 10 "" H 0   0   50  0001 C CNN "S1PL"
+F 11 "" H 0   0   50  0001 C CNN "S1PN"
+F 12 "CONSIGN" H 0   0   50  0001 C CNN "MFP"
+	1    9800 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L HackPackv4-rescue:+5V_Lights #PWR046
+U 1 1 5B55A570
+P 3350 6900
+F 0 "#PWR046" H 3350 6750 50  0001 C CNN
+F 1 "+5V_Lights" H 3350 7040 50  0000 C CNN
+F 2 "" H 3350 6900 50  0001 C CNN
+F 3 "" H 3350 6900 50  0001 C CNN
+	1    3350 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR047
+U 1 1 5B492690
+P 4200 7300
+F 0 "#PWR047" H 4200 7050 50  0001 C CNN
+F 1 "GND" H 4200 7150 50  0000 C CNN
+F 2 "" H 4200 7300 50  0001 C CNN
+F 3 "" H 4200 7300 50  0001 C CNN
+	1    4200 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 7250 4200 7300
+Connection ~ 3950 7250
+Wire Wire Line
+	3050 7000 3050 6950
+$Comp
+L HackPackv4-rescue:MCP3008 U6
+U 1 1 5B55B359
+P 8400 2100
+F 0 "U6" H 8200 2625 50  0000 R CNN
+F 1 "MCP3008" H 8200 2550 50  0000 R CNN
+F 2 "HackPack_Footprints:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 8500 2200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/268/21295b-72710.pdf" H 8500 2200 50  0001 C CNN
+F 4 "Microchip Technology" H 8400 2100 60  0001 C CNN "MFN"
+F 5 "MCP3008T-I/SL" H 8400 2100 60  0001 C CNN "MFP"
+F 6 "" H 8400 2100 60  0001 C CNN "S1PN"
+F 7 "" H 8400 2100 60  0001 C CNN "S1PL"
+F 8 "" H 8400 2100 60  0001 C CNN "S2PN"
+F 9 "" H 8400 2100 60  0001 C CNN "S2PL"
+F 10 "Do not substitute" H 8400 2100 60  0001 C CNN "Characteristics"
+F 11 "DAC for Joystick and Touch" H 8400 2100 60  0001 C CNN "Description"
+F 12 "N" H 8400 2100 60  0001 C CNN "Can_Substitute"
+F 13 "DAC" H 8400 2100 60  0001 C CNN "Notes"
+	1    8400 2100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L HackPackv4-rescue:SW_Push SW3
+U 1 1 5B56D223
+P 2600 5200
+F 0 "SW3" H 2650 5300 50  0000 L CNN
+F 1 "X_B" H 2600 5140 50  0000 C CNN
+F 2 "HackPack_Footprints:TS-1109_6.2mm_Push" H 2600 5400 50  0001 C CNN
+F 3 "https://www.ctscorp.com/wp-content/uploads/222A.pdf" H 2600 5400 50  0001 C CNN
+F 4 "CTS Electrocomponents" H 2600 5200 60  0001 C CNN "MFN"
+F 5 "222ADVBA" H 2600 5200 60  0001 C CNN "MFP"
+F 6 "" H 2600 5200 60  0001 C CNN "S1PN"
+F 7 "" H 2600 5200 60  0001 C CNN "S1PL"
+F 8 "DIP Button;SPST;160gf" H 2600 5200 60  0001 C CNN "Description"
+F 9 "N" H 2600 5200 60  0001 C CNN "Can_Substitute"
+F 10 "Used for SEL/START/A/B/X/Y Buttons" H 2600 5200 60  0001 C CNN "Notes"
+	1    2600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L HackPackv4-rescue:SW_Push SW6
+U 1 1 5B56D2BC
+P 3750 4900
+F 0 "SW6" H 3800 5000 50  0000 L CNN
+F 1 "Y_B" H 3750 4840 50  0000 C CNN
+F 2 "HackPack_Footprints:TS-1109_6.2mm_Push" H 3750 5100 50  0001 C CNN
+F 3 "https://www.ctscorp.com/wp-content/uploads/222A.pdf" H 3750 5100 50  0001 C CNN
+F 4 "CTS Electrocomponents" H 3750 4900 60  0001 C CNN "MFN"
+F 5 "222ADVBA" H 3750 4900 60  0001 C CNN "MFP"
+F 6 "" H 3750 4900 60  0001 C CNN "S1PN"
+F 7 "" H 3750 4900 60  0001 C CNN "S1PL"
+F 8 "DIP Button;SPST;160gf" H 3750 4900 60  0001 C CNN "Description"
+F 9 "N" H 3750 4900 60  0001 C CNN "Can_Substitute"
+F 10 "Used for SEL/START/A/B/X/Y Buttons" H 3750 4900 60  0001 C CNN "Notes"
+	1    3750 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L HackPackv4-rescue:SW_Push SW2
+U 1 1 5B56D35A
+P 1600 6550
+F 0 "SW2" H 1650 6650 50  0000 L CNN
+F 1 "START_B" H 1600 6490 50  0000 C CNN
+F 2 "HackPack_Footprints:TS-1109_6.2mm_Push" H 1600 6750 50  0001 C CNN
+F 3 "https://www.ctscorp.com/wp-content/uploads/222A.pdf" H 1600 6750 50  0001 C CNN
+F 4 "CTS Electrocomponents" H 1600 6550 60  0001 C CNN "MFN"
+F 5 "222ADVBA" H 1600 6550 60  0001 C CNN "MFP"
+F 6 "" H 1600 6550 60  0001 C CNN "S1PN"
+F 7 "" H 1600 6550 60  0001 C CNN "S1PL"
+F 8 "DIP Button;SPST;160gf" H 1600 6550 60  0001 C CNN "Description"
+F 9 "N" H 1600 6550 60  0001 C CNN "Can_Substitute"
+F 10 "Used for SEL/START/A/B/X/Y Buttons" H 1600 6550 60  0001 C CNN "Notes"
+	1    1600 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L HackPackv4-rescue:SW_Push SW4
+U 1 1 5B56D3F1
+P 2600 6150
+F 0 "SW4" H 2650 6250 50  0000 L CNN
+F 1 "A_B" H 2600 6090 50  0000 C CNN
+F 2 "HackPack_Footprints:TS-1109_6.2mm_Push" H 2600 6350 50  0001 C CNN
+F 3 "https://www.ctscorp.com/wp-content/uploads/222A.pdf" H 2600 6350 50  0001 C CNN
+F 4 "CTS Electrocomponents" H 2600 6150 60  0001 C CNN "MFN"
+F 5 "222ADVBA" H 2600 6150 60  0001 C CNN "MFP"
+F 6 "" H 2600 6150 60  0001 C CNN "S1PN"
+F 7 "" H 2600 6150 60  0001 C CNN "S1PL"
+F 8 "DIP Button;SPST;160gf" H 2600 6150 60  0001 C CNN "Description"
+F 9 "N" H 2600 6150 60  0001 C CNN "Can_Substitute"
+F 10 "Used for SEL/START/A/B/X/Y Buttons" H 2600 6150 60  0001 C CNN "Notes"
+	1    2600 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L HackPackv4-rescue:SW_Push SW7
+U 1 1 5B56D490
+P 3800 5850
+F 0 "SW7" H 3850 5950 50  0000 L CNN
+F 1 "B_B" H 3800 5790 50  0000 C CNN
+F 2 "HackPack_Footprints:TS-1109_6.2mm_Push" H 3800 6050 50  0001 C CNN
+F 3 "https://www.ctscorp.com/wp-content/uploads/222A.pdf" H 3800 6050 50  0001 C CNN
+F 4 "CTS Electrocomponents" H 3800 5850 60  0001 C CNN "MFN"
+F 5 "222ADVBA" H 3800 5850 60  0001 C CNN "MFP"
+F 6 "" H 3800 5850 60  0001 C CNN "S1PN"
+F 7 "" H 3800 5850 60  0001 C CNN "S1PL"
+F 8 "DIP Button;SPST;160gf" H 3800 5850 60  0001 C CNN "Description"
+F 9 "N" H 3800 5850 60  0001 C CNN "Can_Substitute"
+F 10 "Used for SEL/START/A/B/X/Y Buttons" H 3800 5850 60  0001 C CNN "Notes"
+	1    3800 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5B56EB6F
+P 3350 7100
+F 0 "C2" H 3360 7170 50  0000 L CNN
+F 1 ".1uF" H 3360 7020 50  0000 L CNN
+F 2 "HackPack_Footprints:C_0603" H 3350 7100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" H 3350 7100 50  0001 C CNN
+F 4 "MURATA" H 3350 7100 60  0001 C CNN "MFN"
+F 5 "GCM188R71H104KA57D" H 3350 7100 60  0001 C CNN "MFP"
+F 6 "" H 3350 7100 60  0001 C CNN "S1PN"
+F 7 "" H 3350 7100 60  0001 C CNN "S1PL"
+F 8 "0603 100nF-50V-10%-X7R" H 3350 7100 60  0001 C CNN "Characteristics"
+F 9 "CAP CER 0.1UF 50V X7R 0603" H 3350 7100 60  0001 C CNN "Description"
+F 10 "Y" H 3350 7100 60  0001 C CNN "Can_Substitute"
+	1    3350 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5B56EBFB
+P 3650 7100
+F 0 "C4" H 3660 7170 50  0000 L CNN
+F 1 ".1uF" H 3660 7020 50  0000 L CNN
+F 2 "HackPack_Footprints:C_0603" H 3650 7100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" H 3650 7100 50  0001 C CNN
+F 4 "MURATA" H 3650 7100 60  0001 C CNN "MFN"
+F 5 "GCM188R71H104KA57D" H 3650 7100 60  0001 C CNN "MFP"
+F 6 "" H 3650 7100 60  0001 C CNN "S1PN"
+F 7 "" H 3650 7100 60  0001 C CNN "S1PL"
+F 8 "0603 100nF-50V-10%-X7R" H 3650 7100 60  0001 C CNN "Characteristics"
+F 9 "CAP CER 0.1UF 50V X7R 0603" H 3650 7100 60  0001 C CNN "Description"
+F 10 "Y" H 3650 7100 60  0001 C CNN "Can_Substitute"
+	1    3650 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5B56EC91
+P 3950 7100
+F 0 "C5" H 3960 7170 50  0000 L CNN
+F 1 ".1uF" H 3960 7020 50  0000 L CNN
+F 2 "HackPack_Footprints:C_0603" H 3950 7100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" H 3950 7100 50  0001 C CNN
+F 4 "MURATA" H 3950 7100 60  0001 C CNN "MFN"
+F 5 "GCM188R71H104KA57D" H 3950 7100 60  0001 C CNN "MFP"
+F 6 "" H 3950 7100 60  0001 C CNN "S1PN"
+F 7 "" H 3950 7100 60  0001 C CNN "S1PL"
+F 8 "0603 100nF-50V-10%-X7R" H 3950 7100 60  0001 C CNN "Characteristics"
+F 9 "CAP CER 0.1UF 50V X7R 0603" H 3950 7100 60  0001 C CNN "Description"
+F 10 "Y" H 3950 7100 60  0001 C CNN "Can_Substitute"
+	1    3950 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 5B56ED25
+P 6600 1500
+F 0 "C6" H 6610 1570 50  0000 L CNN
+F 1 ".1uF" H 6610 1420 50  0000 L CNN
+F 2 "HackPack_Footprints:C_0603" H 6600 1500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" H 6600 1500 50  0001 C CNN
+F 4 "MURATA" H 6600 1500 60  0001 C CNN "MFN"
+F 5 "GCM188R71H104KA57D" H 6600 1500 60  0001 C CNN "MFP"
+F 6 "" H 6600 1500 60  0001 C CNN "S1PN"
+F 7 "" H 6600 1500 60  0001 C CNN "S1PL"
+F 8 "0603 100nF-50V-10%-X7R" H 6600 1500 60  0001 C CNN "Characteristics"
+F 9 "CAP CER 0.1UF 50V X7R 0603" H 6600 1500 60  0001 C CNN "Description"
+F 10 "Y" H 6600 1500 60  0001 C CNN "Can_Substitute"
+	1    6600 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 5B56FA73
+P 7300 2900
+F 0 "C7" H 7310 2970 50  0000 L CNN
+F 1 ".1uF" H 7310 2820 50  0000 L CNN
+F 2 "HackPack_Footprints:C_0603" H 7300 2900 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" H 7300 2900 50  0001 C CNN
+F 4 "MURATA" H 7300 2900 60  0001 C CNN "MFN"
+F 5 "GCM188R71H104KA57D" H 7300 2900 60  0001 C CNN "MFP"
+F 6 "" H 7300 2900 60  0001 C CNN "S1PN"
+F 7 "" H 7300 2900 60  0001 C CNN "S1PL"
+F 8 "0603 100nF-50V-10%-X7R" H 7300 2900 60  0001 C CNN "Characteristics"
+F 9 "CAP CER 0.1UF 50V X7R 0603" H 7300 2900 60  0001 C CNN "Description"
+F 10 "Y" H 7300 2900 60  0001 C CNN "Can_Substitute"
+	1    7300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5B570DE0
+P 1200 6550
+F 0 "R2" H 1230 6570 50  0000 L CNN
+F 1 "1k" H 1230 6510 50  0000 L CNN
+F 2 "HackPack_Footprints:R_0805" H 1200 6550 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 1200 6550 50  0001 C CNN
+F 4 "Yageo" H 1200 6550 60  0001 C CNN "MFN"
+F 5 "RC0805JR-071KL" H 1200 6550 60  0001 C CNN "MFP"
+F 6 "" H 1200 6550 60  0001 C CNN "S1PN"
+F 7 "" H 1200 6550 60  0001 C CNN "S1PL"
+F 8 "1K 5% 1/8W" H 1200 6550 60  0001 C CNN "Characteristics"
+F 9 "SMD RES 1K-5%-1/8W;0805" H 1200 6550 60  0001 C CNN "Description"
+F 10 "Y" H 1200 6550 60  0001 C CNN "Can_Substitute"
+F 11 "" H 0   0   50  0001 C CNN "MPN"
+	1    1200 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5B570E74
+P 2100 6150
+F 0 "R4" H 2130 6170 50  0000 L CNN
+F 1 "1k" H 2130 6110 50  0000 L CNN
+F 2 "HackPack_Footprints:R_0805" H 2100 6150 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 2100 6150 50  0001 C CNN
+F 4 "Yageo" H 2100 6150 60  0001 C CNN "MFN"
+F 5 "RC0805JR-071KL" H 2100 6150 60  0001 C CNN "MFP"
+F 6 "" H 2100 6150 60  0001 C CNN "S1PN"
+F 7 "" H 2100 6150 60  0001 C CNN "S1PL"
+F 8 "1K 5% 1/8W" H 2100 6150 60  0001 C CNN "Characteristics"
+F 9 "SMD RES 1K-5%-1/8W;0805" H 2100 6150 60  0001 C CNN "Description"
+F 10 "Y" H 2100 6150 60  0001 C CNN "Can_Substitute"
+F 11 "" H 0   0   50  0001 C CNN "MPN"
+	1    2100 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5B570F05
+P 2100 5200
+F 0 "R3" H 2130 5220 50  0000 L CNN
+F 1 "1k" H 2130 5160 50  0000 L CNN
+F 2 "HackPack_Footprints:R_0805" H 2100 5200 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 2100 5200 50  0001 C CNN
+F 4 "Yageo" H 2100 5200 60  0001 C CNN "MFN"
+F 5 "RC0805JR-071KL" H 2100 5200 60  0001 C CNN "MFP"
+F 6 "" H 2100 5200 60  0001 C CNN "S1PN"
+F 7 "" H 2100 5200 60  0001 C CNN "S1PL"
+F 8 "1K 5% 1/8W" H 2100 5200 60  0001 C CNN "Characteristics"
+F 9 "SMD RES 1K-5%-1/8W;0805" H 2100 5200 60  0001 C CNN "Description"
+F 10 "Y" H 2100 5200 60  0001 C CNN "Can_Substitute"
+F 11 "" H 0   0   50  0001 C CNN "MPN"
+	1    2100 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5B570F98
+P 3250 4900
+F 0 "R6" H 3280 4920 50  0000 L CNN
+F 1 "1k" H 3280 4860 50  0000 L CNN
+F 2 "HackPack_Footprints:R_0805" H 3250 4900 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 3250 4900 50  0001 C CNN
+F 4 "Yageo" H 3250 4900 60  0001 C CNN "MFN"
+F 5 "RC0805JR-071KL" H 3250 4900 60  0001 C CNN "MFP"
+F 6 "" H 3250 4900 60  0001 C CNN "S1PN"
+F 7 "" H 3250 4900 60  0001 C CNN "S1PL"
+F 8 "1K 5% 1/8W" H 3250 4900 60  0001 C CNN "Characteristics"
+F 9 "SMD RES 1K-5%-1/8W;0805" H 3250 4900 60  0001 C CNN "Description"
+F 10 "Y" H 3250 4900 60  0001 C CNN "Can_Substitute"
+F 11 "" H 0   0   50  0001 C CNN "MPN"
+	1    3250 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 5B571030
+P 3300 5850
+F 0 "R7" H 3330 5870 50  0000 L CNN
+F 1 "1k" H 3330 5810 50  0000 L CNN
+F 2 "HackPack_Footprints:R_0805" H 3300 5850 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 3300 5850 50  0001 C CNN
+F 4 "Yageo" H 3300 5850 60  0001 C CNN "MFN"
+F 5 "RC0805JR-071KL" H 3300 5850 60  0001 C CNN "MFP"
+F 6 "" H 3300 5850 60  0001 C CNN "S1PN"
+F 7 "" H 3300 5850 60  0001 C CNN "S1PL"
+F 8 "1K 5% 1/8W" H 3300 5850 60  0001 C CNN "Characteristics"
+F 9 "SMD RES 1K-5%-1/8W;0805" H 3300 5850 60  0001 C CNN "Description"
+F 10 "Y" H 3300 5850 60  0001 C CNN "Can_Substitute"
+F 11 "" H 0   0   50  0001 C CNN "MPN"
+	1    3300 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5B571564
+P 8900 5950
+F 0 "R10" V 8800 6050 50  0000 C CNN
+F 1 "100" V 8900 5950 50  0000 C CNN
+F 2 "HackPack_Footprints:R_0805" V 8830 5950 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 8900 5950 50  0001 C CNN
+F 4 "Yageo" H 8900 5950 60  0001 C CNN "MFN"
+F 5 "RC0805JR-07100RL" H 8900 5950 60  0001 C CNN "MFP"
+F 6 "" H 8900 5950 60  0001 C CNN "S1PN"
+F 7 "" H 8900 5950 60  0001 C CNN "S1PL"
+F 8 "100R 5% 1/8W 0805" H 8900 5950 60  0001 C CNN "Characteristics"
+F 9 "SMD RES 100R-5%-1/8W" H 8900 5950 60  0001 C CNN "Description"
+F 10 "Y" H 8900 5950 60  0001 C CNN "Can_Substitute"
+F 11 "MOSFET Gate Input Protection" H 0   0   50  0001 C CNN "Notes"
+	1    8900 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L HackPackv4-rescue:WS2812B U5
+U 1 1 5B5735A5
+P 5600 4050
+F 0 "U5" H 6050 4400 60  0000 C CNN
+F 1 "WS2812B" H 5700 3600 60  0000 C CNN
+F 2 "HackPack_Footprints:LED_WS2812B-PLCC4" H 5850 4000 60  0001 C CNN
+F 3 "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf" H 5850 4000 60  0001 C CNN
+F 4 "Inolux" H 5600 4050 60  0001 C CNN "MFN"
+F 5 "IN-PI554FCH" H 5600 4050 60  0001 C CNN "MFP"
+F 6 "" H 5600 4050 60  0001 C CNN "S1PN"
+F 7 "" H 5600 4050 60  0001 C CNN "S1PL"
+F 8 "LED RGB 5050 SMD" H 5600 4050 60  0001 C CNN "Description"
+F 9 "N" H 5600 4050 60  0001 C CNN "Can_Substitute"
+	1    5600 4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L HackPackv4-rescue:WS2812B U3
+U 1 1 5B573641
+P 5550 6650
+F 0 "U3" H 6000 7000 60  0000 C CNN
+F 1 "WS2812B" H 5650 6200 60  0000 C CNN
+F 2 "HackPack_Footprints:LED_WS2812B-PLCC4" H 5800 6600 60  0001 C CNN
+F 3 "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf" H 5800 6600 60  0001 C CNN
+F 4 "Inolux" H 5550 6650 60  0001 C CNN "MFN"
+F 5 "IN-PI554FCH" H 5550 6650 60  0001 C CNN "MFP"
+F 6 "" H 5550 6650 60  0001 C CNN "S1PN"
+F 7 "" H 5550 6650 60  0001 C CNN "S1PL"
+F 8 "LED RGB 5050 SMD" H 5550 6650 60  0001 C CNN "Description"
+F 9 "N" H 5550 6650 60  0001 C CNN "Can_Substitute"
+	1    5550 6650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L HackPackv4-rescue:WS2812B U1
+U 1 1 5B5736E0
+P 5550 2750
+F 0 "U1" H 6000 3100 60  0000 C CNN
+F 1 "WS2812B" H 5650 2300 60  0000 C CNN
+F 2 "HackPack_Footprints:LED_WS2812B-PLCC4" H 5800 2700 60  0001 C CNN
+F 3 "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf" H 5800 2700 60  0001 C CNN
+F 4 "Inolux" H 5550 2750 60  0001 C CNN "MFN"
+F 5 "IN-PI554FCH" H 5550 2750 60  0001 C CNN "MFP"
+F 6 "" H 5550 2750 60  0001 C CNN "S1PN"
+F 7 "" H 5550 2750 60  0001 C CNN "S1PL"
+F 8 "LED RGB 5050 SMD" H 5550 2750 60  0001 C CNN "Description"
+F 9 "N" H 5550 2750 60  0001 C CNN "Can_Substitute"
+	1    5550 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L HackPackv4-rescue:WS2812B U2
+U 1 1 5B573786
+P 5550 5350
+F 0 "U2" H 6000 5700 60  0000 C CNN
+F 1 "WS2812B" H 5650 4900 60  0000 C CNN
+F 2 "HackPack_Footprints:LED_WS2812B-PLCC4" H 5800 5300 60  0001 C CNN
+F 3 "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf" H 5800 5300 60  0001 C CNN
+F 4 "Inolux" H 5550 5350 60  0001 C CNN "MFN"
+F 5 "IN-PI554FCH" H 5550 5350 60  0001 C CNN "MFP"
+F 6 "" H 5550 5350 60  0001 C CNN "S1PN"
+F 7 "" H 5550 5350 60  0001 C CNN "S1PL"
+F 8 "LED RGB 5050 SMD" H 5550 5350 60  0001 C CNN "Description"
+F 9 "N" H 5550 5350 60  0001 C CNN "Can_Substitute"
+	1    5550 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 1200 6350 1300
+$Comp
+L Device:CP C1
+U 1 1 5B58881A
+P 1000 4050
+F 0 "C1" H 1025 4150 50  0000 L CNN
+F 1 "100uF" H 1025 3950 50  0000 L CNN
+F 2 "HackPack_Footprints:CP_Tantalum_Case-B_EIA-3528-21_Wave" H 1038 3900 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/40/f93-776559.pdf" H 1000 4050 50  0001 C CNN
+F 4 "AVX" H 1000 4050 60  0001 C CNN "MFN"
+F 5 "F931A107KBA" H 1000 4050 60  0001 C CNN "MFP"
+F 6 "" H 1000 4050 60  0001 C CNN "S1PN"
+F 7 "" H 1000 4050 60  0001 C CNN "S1PL"
+F 8 "100uF 10V 20%" H 1000 4050 60  0001 C CNN "Characteristics"
+F 9 "SMD CAP Tantalum 100uF-10V" H 1000 4050 60  0001 C CNN "Description"
+F 10 "" H 1000 4050 60  0001 C CNN "Package ID"
+F 11 "Y" H 1000 4050 60  0001 C CNN "Can_Substitute"
+F 12 "2x for Smoothing 5V" H 1000 4050 60  0001 C CNN "Notes"
+	1    1000 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C8
+U 1 1 5B589272
+P 1000 4350
+F 0 "C8" H 1025 4450 50  0000 L CNN
+F 1 "100uF" H 1025 4250 50  0000 L CNN
+F 2 "HackPack_Footprints:CP_Tantalum_Case-B_EIA-3528-21_Wave" H 1038 4200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/40/f93-776559.pdf" H 1000 4350 50  0001 C CNN
+F 4 "AVX" H 1000 4350 60  0001 C CNN "MFN"
+F 5 "F931A107KBA" H 1000 4350 60  0001 C CNN "MFP"
+F 6 "" H 1000 4350 60  0001 C CNN "S1PN"
+F 7 "" H 1000 4350 60  0001 C CNN "S1PL"
+F 8 "100uF 10V 20%" H 1000 4350 60  0001 C CNN "Characteristics"
+F 9 "SMD CAP Tantalum 100uF-10V" H 1000 4350 60  0001 C CNN "Description"
+F 10 "" H 1000 4350 60  0001 C CNN "Package ID"
+F 11 "Y" H 1000 4350 60  0001 C CNN "Can_Substitute"
+F 12 "2x for Smoothing 5V" H 1000 4350 60  0001 C CNN "Notes"
+	1    1000 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1150 4050 1250 4050
+Wire Wire Line
+	1250 3900 1250 4050
+Wire Wire Line
+	1250 4350 1150 4350
+Connection ~ 1250 4050
+Wire Wire Line
+	850  4050 650  4050
+Wire Wire Line
+	650  4050 650  4350
+Wire Wire Line
+	850  4350 650  4350
+Connection ~ 650  4350
+Wire Wire Line
+	1800 4100 1800 4200
+Wire Wire Line
+	2400 4100 2500 4100
+Wire Wire Line
+	2300 4100 2400 4100
+Wire Wire Line
+	2200 4100 2300 4100
+Wire Wire Line
+	2100 4100 2200 4100
+Wire Wire Line
+	2000 4100 2100 4100
+Wire Wire Line
+	1900 4100 2000 4100
+Wire Wire Line
+	8200 2900 8200 3000
+Wire Wire Line
+	8200 1500 8200 1600
+Wire Wire Line
+	2300 1050 2300 1200
+Wire Wire Line
+	2000 1050 2000 1200
+Wire Wire Line
+	3650 7250 3950 7250
+Wire Wire Line
+	3350 7250 3650 7250
+Wire Wire Line
+	3350 6950 3350 7000
+Wire Wire Line
+	3350 6950 3650 6950
+Wire Wire Line
+	3650 6950 3950 6950
+Wire Wire Line
+	3950 1100 4150 1100
+Wire Wire Line
+	3450 1700 4100 1700
+Wire Wire Line
+	2500 4100 2500 4450
+Wire Wire Line
+	8150 6250 8350 6250
+Wire Wire Line
+	9550 6250 9750 6250
+Wire Wire Line
+	3950 7250 4200 7250
+Wire Wire Line
+	1250 4050 1250 4350
+Wire Wire Line
+	650  4350 650  4450
+Wire Wire Line
+	6350 800  6350 900 
+Wire Wire Line
+	6600 1400 6600 1300
+Wire Wire Line
+	6600 1300 6350 1300
+Connection ~ 6350 1300
+Wire Wire Line
+	3100 3200 3250 3200
+Wire Wire Line
+	3100 3300 3250 3300
+Text Label 3250 3200 2    60   ~ 0
+Tx
+Text Label 3250 3300 2    60   ~ 0
+Rx
+Wire Wire Line
+	3600 3000 3600 3300
+$Comp
+L Connector:Conn_01x04_Male J3
+U 1 1 5B600E7F
+P 4050 3300
+F 0 "J3" H 4022 3180 50  0000 R CNN
+F 1 "Grove_UART" H 4250 3500 50  0000 R CNN
+F 2 "HackPack_Footprints:Grove_Taifeng_1125R-SMT-4P" H 4050 3300 50  0001 C CNN
+F 3 "" H 4050 3300 50  0001 C CNN
+F 4 "--" H 4050 3300 50  0001 C CNN "MFN"
+F 5 "" H 4050 3300 50  0001 C CNN "MPN"
+F 6 "" H 4050 3300 50  0001 C CNN "S1PN"
+F 7 "" H 4050 3300 50  0001 C CNN "S1PL"
+F 8 "N" H 0   0   50  0001 C CNN "Can_Substitute"
+F 9 "Grove UART Header - Solder bent pins onto pads: https://www.digikey.com/product-detail/en/seeed-technology-co-ltd/110990037/1597-1083-ND/5482561" H 0   0   50  0001 C CNN "Description"
+F 10 "--" H 0   0   50  0001 C CNN "MFP"
+F 11 "Bend pins & solder sideways" H 0   0   50  0001 C CNN "Notes"
+	1    4050 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 3300 3850 3300
+Wire Wire Line
+	3850 3200 3700 3200
+Wire Wire Line
+	3850 3100 3700 3100
+Text Label 3700 3200 0    60   ~ 0
+Tx
+Text Label 3700 3100 0    60   ~ 0
+Rx
+Text Label 6150 1300 0    60   ~ 0
+LED1_PWR
+Wire Wire Line
+	7650 5950 7750 5950
+$Comp
+L HackPackv4-rescue:NCE3407A Q1
+U 1 1 5B5F9B22
+P 7750 6150
+F 0 "Q1" V 8000 6150 50  0000 C CNN
+F 1 "NCE3407A" V 7900 6550 50  0000 C CNN
+F 2 "HackPack_Footprints:SOT-23" H 8000 6075 50  0001 L CIN
+F 3 "http://aosmd.com/res/data_sheets/AO3407A.pdf" H 7750 6150 50  0001 L CNN
+F 4 "Alpha & Omega Semiconductor" H 7750 6150 50  0001 C CNN "MFN"
+F 5 "" H 7750 6150 50  0001 C CNN "MPN"
+F 6 "" H 7750 6150 50  0001 C CNN "S1PN"
+F 7 "" H 7750 6150 50  0001 C CNN "S1PL"
+F 8 "VGS th < -3, 10+V, 500mA+" H 7750 6150 50  0001 C CNN "Characteristics"
+F 9 "MOSFET P-CH 30V 4.3A SOT23" H 7750 6150 50  0001 C CNN "Description"
+F 10 "Y" H 7750 6150 50  0001 C CNN "Can_Substitute"
+F 11 "Turn on LEDs, Screen" H 7750 6150 50  0001 C CNN "Notes"
+F 12 "" H 7750 6150 50  0001 C CNN "Package"
+F 13 "AO3407A" H 0   0   50  0001 C CNN "MFP"
+	1    7750 6150
+	0    -1   1    0   
+$EndComp
+Connection ~ 7750 5950
+Wire Wire Line
+	7750 5950 7850 5950
+Wire Wire Line
+	9050 5950 9150 5950
+$Comp
+L HackPackv4-rescue:NCE3407A Q2
+U 1 1 5B607797
+P 9150 6150
+F 0 "Q2" V 9400 6150 50  0000 C CNN
+F 1 "NCE3407A" V 9300 6550 50  0000 C CNN
+F 2 "HackPack_Footprints:SOT-23" H 9400 6075 50  0001 L CIN
+F 3 "http://aosmd.com/res/data_sheets/AO3407A.pdf" H 9150 6150 50  0001 L CNN
+F 4 "Alpha & Omega Semiconductor" H 9150 6150 50  0001 C CNN "MFN"
+F 5 "" H 9150 6150 50  0001 C CNN "MPN"
+F 6 "" H 9150 6150 50  0001 C CNN "S1PN"
+F 7 "" H 9150 6150 50  0001 C CNN "S1PL"
+F 8 "VGS th < -3, 10+V, 500mA+" H 9150 6150 50  0001 C CNN "Characteristics"
+F 9 "MOSFET P-CH 30V 4.3A SOT23" H 9150 6150 50  0001 C CNN "Description"
+F 10 "Y" H 9150 6150 50  0001 C CNN "Can_Substitute"
+F 11 "Turn on LEDs, Screen" H 9150 6150 50  0001 C CNN "Notes"
+F 12 "" H 9150 6150 50  0001 C CNN "Package"
+F 13 "AO3407A" H 0   0   50  0001 C CNN "MFP"
+	1    9150 6150
+	0    -1   1    0   
+$EndComp
+Connection ~ 9150 5950
+Wire Wire Line
+	9150 5950 9250 5950
+$Comp
+L Device:R R11
+U 1 1 5B618328
+P 9400 5950
+F 0 "R11" V 9300 6050 50  0000 C CNN
+F 1 "10k" V 9400 5950 50  0000 C CNN
+F 2 "HackPack_Footprints:R_0805" V 9330 5950 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 9400 5950 50  0001 C CNN
+F 4 "Yageo" H 9400 5950 60  0001 C CNN "MFN"
+F 5 "" H 9400 5950 60  0001 C CNN "S1PN"
+F 6 "" H 9400 5950 60  0001 C CNN "S1PL"
+F 7 "10K 1% or 5% 1/8W" H 9400 5950 60  0001 C CNN "Characteristics"
+F 8 "SMD RES 10K-1%-1/8W;0805" H 9400 5950 60  0001 C CNN "Description"
+F 9 "Y" H 9400 5950 60  0001 C CNN "Can_Substitute"
+F 10 "MOSFET Gate Pullup" H 9400 5950 60  0001 C CNN "Notes"
+F 11 "RC0805FR-0710KL" H 9400 5950 60  0001 C CNN "MFP"
+	1    9400 5950
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	500  7500 2900 7500
+Wire Notes Line
+	2900 7500 2900 6650
+Wire Notes Line
+	2900 6650 4300 6650
+Wire Notes Line
+	4300 4700 4300 6650
+$EndSCHEMATC

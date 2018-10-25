@@ -1,0 +1,23 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,MFP,MFN,Characteristics,Can_Substitute,Notes,Package
+1,CAP CER 0.1UF 50V X7R 0603,C_Small,C2 C3 C4 C5 C6 C7,.1uF,C_0603,6,https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf,GCM188R71H104KA57D,MURATA,0603 100nF-50V-10%-X7R,Y,,
+2,SMD CAP Tantalum 100uF-10V,CP,C1 C8,100uF,CP_Tantalum_Case-B_EIA-3528-21_Wave,2,https://www.mouser.com/datasheet/2/40/f93-776559.pdf,F931A107KBA,AVX,100uF 10V 20%,Y,2x for Smoothing 5V,
+3,SMD Diode Switching 100V-200mA,D,D1,MMSD4148,D_SOD-123,1,https://www.onsemi.com/pub/Collateral/MMSD4148T1-D.PDF,MMSD4148T3G,ON Semiconductor,MUST DROP >= .3 Forward Voltage!! SMD Diode Switching 100V-200mA,N,To drop voltage for the first LED to meet the 70% spec.,
+4,NO NOT POPULATE,Conn_02x02_Odd_Even,J2,Conn_02x02_Odd_Even,Pin_Header_Straight_2x02_Pitch2.54mm,1,NONE,DNP,DNP,NO NOT POPULATE,N,NO NOT POPULATE,NO NOT POPULATE
+5,Grove UART Header - Solder bent pins onto pads,Conn_01x04_Male,J3,Grove_UART,Grove_Taifeng_1125R-SMT-4P,1,https://www.digikey.com/product-detail/en/seeed-technology-co-ltd/110990037/1597-1083-ND/5482561,Buy on Digikey and Modify,--,,N,Bend pins & solder sideways,
+6,Surface mount low profile header 40 pin 2 row,Raspberry_Pi_Zero_W,J1,Raspberry_Pi_Zero_W,M20-7812045,1,https://cdn.harwin.com/pdfs/M20-781.pdf,HLE-120-02-G-DV-A,Samtec,40 Pin 2x20 2.54mm pitch SMD.,Y,WAIT ON SUBSTITUTE FROM ERIN & TWILIO,
+7,MOSFET P-CH 30V 4.3A SOT23,NCE3407A,Q1 Q2,NCE3407A,SOT-23,2,http://aosmd.com/res/data_sheets/AO3407A.pdf,AO3407A,Alpha & Omega Semiconductor,"VGS th < -3, 10+V, 500mA+",Y,"Turn on LEDs, Screen",
+8,SMD RES 100R-5%-1/8W,R,R8 R10,100,R_0805,2,http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf,RC0805JR-07100RL,Yageo,100R 5% 1/8W 0805,Y,MOSFET Gate Input Protection,
+9,SMD RES 10K-1%-1/8W;0805,R,R9 R11,10k,R_0805,2,http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf,RC0805FR-0710KL,Yageo,10K 1% or 5% 1/8W,Y,MOSFET Gate Pullup,
+10,SMD RES 1K-5%-1/8W;0805,R_Small,R1 R2 R3 R4 R6 R7,1k,R_0805,6,http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf,RC0805JR-071KL,Yageo,1K 5% 1/8W,Y,,
+11,SMD RES 330R-1%-1/8W;0805,R,R5,330,R_0805,1,http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf,RC0805FR-07330RL,Yageo,0805 5% or 1% 330R 1/8W,Y,Protection on button/pulldown,
+12,DIP Button;SPST;160gf,SW_Push,SW4,A_B,TS-1109_6.2mm_Push,1,https://www.ctscorp.com/wp-content/uploads/222A.pdf,222ADVBA,CTS Electrocomponents,,N,Used for SEL/START/A/B/X/Y Buttons,
+13,DIP Button;SPST;160gf,SW_Push,SW7,B_B,TS-1109_6.2mm_Push,1,https://www.ctscorp.com/wp-content/uploads/222A.pdf,222ADVBA,CTS Electrocomponents,,N,Used for SEL/START/A/B/X/Y Buttons,
+14,SWITCH TACTILE SPST-NO 0.05A 12V,SW_Push,SW5,PWR_B,ALPS_SKRPABE010,1,https://www.e-switch.com/system/asset/product_line/data_sheet/218/TL3365.pdf,TL3365AF180QG,E-Switch,SMD 4.2mmx3mm 4 contact SPST Push,N,Power button,
+15,DIP Button;SPST;160gf,SW_Push,SW1,SEL_B,TS-1109_6.2mm_Push,1,https://www.ctscorp.com/wp-content/uploads/222A.pdf,222ADVBA,CTS Electrocomponents,,N,Used for SEL/START/A/B/X/Y Buttons,
+16,DIP Button;SPST;160gf,SW_Push,SW2,START_B,TS-1109_6.2mm_Push,1,https://www.ctscorp.com/wp-content/uploads/222A.pdf,222ADVBA,CTS Electrocomponents,,N,Used for SEL/START/A/B/X/Y Buttons,
+17,DIP Button;SPST;160gf,SW_Push,SW3,X_B,TS-1109_6.2mm_Push,1,https://www.ctscorp.com/wp-content/uploads/222A.pdf,222ADVBA,CTS Electrocomponents,,N,Used for SEL/START/A/B/X/Y Buttons,
+18,DIP Button;SPST;160gf,SW_Push,SW6,Y_B,TS-1109_6.2mm_Push,1,https://www.ctscorp.com/wp-content/uploads/222A.pdf,222ADVBA,CTS Electrocomponents,,N,Used for SEL/START/A/B/X/Y Buttons,
+19,Screen & touch controller from Alibaba/Amazon,ILI9341_28_TFT_LCD_TOUCH,U7,ILI9341_28_TFT_LCD_TOUCH,ILI9341_TFT_LCD,1,https://www.amazon.com/HiLetgo-240X320-Resolution-Display-ILI9341/dp/B073R7BH1B/,Buy on Amazon,ILI9341,"ILI9341 Resistive Touchscreen 2.8"" TFT LCD",N,Solder directly no header,CUSTOM
+20,DAC for Joystick and Touch,MCP3008,U6,MCP3008,SOIC-16_3.9x9.9mm_Pitch1.27mm,1,https://www.mouser.com/datasheet/2/268/21295b-72710.pdf,MCP3008T-I/SL,Microchip Technology,Do not substitute,N,DAC,
+21,PSP 1000 Joystick,PSP_1000_JSTK,U8,PSP_1000_JSTK,JOYSTICK-PSP1000,1,https://www.amazon.com/IDS-Joystick-Analog-Replacement-Black/dp/B073GYFP2M/,Buy on Amazon,PSP1000_Joystick,"Analog Resistive Joystick, Can Sub from Other Supplier of PSP 1000 Replacement Joystick",Y,Needs 2 screws,CUSTOM
+22,LED RGB 5050 SMD,WS2812B,U1 U2 U3 U4 U5,WS2812B,LED_WS2812B-PLCC4,5,http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf,IN-PI554FCH,Inolux,,N,,
